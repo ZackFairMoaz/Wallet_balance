@@ -2,11 +2,11 @@ class Wallet:
     def __init__(self):
         self._balance = 0
 
-    def getAmmount(self):
+    def getAmount(self):
         return self._balance
 
-    def setAmmount(self, value):
+    def setAmount(self, value):
         self._balance = value
         
-    def removeAmmount(self, value):
+    def removeAmount(self, value):
         self._balance -= value 
