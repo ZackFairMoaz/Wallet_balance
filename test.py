@@ -7,5 +7,5 @@ def test_getAmount():
 
 def test_getAmount():
     obj=Wallet()
-    obj.setAmount(40)
-    assert obj.getAmount()==40
+    obj.setAmount(30)
+    assert obj.getAmount()==30
